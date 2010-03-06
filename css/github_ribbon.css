@@ -1,0 +1,47 @@
+/****************************/
+/*      Forking ribbon      */
+/****************************/
+ 
+@font-face {
+  font-family: Collegiate;
+  src: url("/Collegiate.ttf");
+}
+ 
+.myribbon {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  height: 12em;
+  right: 0;
+}
+ 
+.myribbon a, myribbon a:hover { text-decoration: none; }
+ 
+.myribbon a {
+  font-family: Collegiate, sans-serif;
+  letter-spacing: -.1px;
+  opacity: 0.95;
+ 
+  padding: 0.25em 0;
+  position: relative;
+  top: 2.5em;
+ 
+  /* Defaults friendly for white pages. */
+  -moz-box-shadow: 0 0 13px #888;
+  -webkit-box-shadow: 0 0 13px #888;
+  color: #FFF;
+  display: block;
+  line-height: 1.35em;
+ 
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  right: -2.6em;
+  background-color: #121621;
+  background: -webkit-gradient(linear, left bottom, left top, from(#101419), to(#141823));
+  text-shadow: 0 0 0.5em #444;
+}
+ 
+.myribbon a span {
+  border: 1px solid #616183;
+  padding: 0.1em 3em;
+}
