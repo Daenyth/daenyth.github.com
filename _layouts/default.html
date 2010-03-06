@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
@@ -8,16 +8,16 @@
 	</head>
 
 	<body>
-		<!-- <a href="http://github.com/Daenyth"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a> -->
-		<div class="myribbon">
-			<a href="http://github.com/Daenyth">
-				<span>Fork me on GitHub</span>
-			</a>
+		<div id="bagofholding">
+			<div class="myribbon">
+				<a href="http://github.com/Daenyth">
+					<span>Fork me on GitHub</span>
+				</a>
+			</div>
+
+			<h1> {{ page.title }} </h1>
+			<div id="content"> {{ content }} </div>
 		</div>
-
-		<h1>{{ page.title }}</h1>
-
-		{{ content }}
 	</body>
 </html>
 
