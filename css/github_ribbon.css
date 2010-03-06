@@ -30,6 +30,7 @@
   -moz-box-shadow: 0 0 13px #888;
   -webkit-box-shadow: 0 0 13px #888;
   color: #FFF;
+  color: #ecedee;
   display: block;
   line-height: 1.35em;
  
@@ -42,6 +43,6 @@
 }
  
 .myribbon a span {
-  border: 1px solid #616183;
+  border: 1px solid #53565e;
   padding: 0.1em 3em;
 }
