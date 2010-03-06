@@ -34,6 +34,7 @@
   display: block;
   line-height: 1.35em;
  
+  transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   right: -2.6em;
